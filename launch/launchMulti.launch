@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launching first tracker-->
+    <node pkg="openni_tracker_multi" type="openni_tracker_modified1" name="tracker_1" args="1" output="screen"/>
+
+    <!-- Launching second tracker-->
+    <node pkg="openni_tracker_multi" type="openni_tracker_modified2" name="tracker_2" args="2" output="screen"/>
+</launch>
